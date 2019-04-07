@@ -14,4 +14,9 @@ func TestBuild(t *testing.T) {
 	var order []int
 	FirstOrderTraverse(node, &order)
 	fmt.Println(order)
+	var level []int
+	LevelTraverse(node, &level)
+	fmt.Println(level)
 }
+
+
